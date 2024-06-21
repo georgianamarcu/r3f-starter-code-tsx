@@ -1,7 +1,8 @@
-import { Canvas } from "@react-three/fiber";
+import React from "react";
+import Router from "@/router/Router";
 
-function App() {
-  return <Canvas></Canvas>;
-}
+const App: React.FC = () => {
+    return <Router />;
+};
 
 export default App;
